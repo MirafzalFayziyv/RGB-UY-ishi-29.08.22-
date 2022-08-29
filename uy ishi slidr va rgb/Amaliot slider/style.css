@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slider{
+    border: 1px solid black;
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+.slider-img{
+    width: 100%;
+    height: 100%;
+}
+.slider-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+.slider-img img:first-child{
+    display: block;
+}
+.slider-btn{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+   
+}
+.btn-prev{
+    margin-right:20px;
+}
+.btn{
+    cursor: pointer;
+}
+    
+
